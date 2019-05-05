@@ -339,6 +339,7 @@ a:hover {
 	height: 255px;
 	color: #fff;	
 	position: relative;
+	background-repeat: no-repeat;
 }
 
 #meals__item__1 {
