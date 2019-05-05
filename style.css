@@ -334,12 +334,51 @@ a:hover {
 }
 
 .meals__item {
-	background-image: url('images/meals/italian.jpg');
 	background-size: 100%;
 	width: 20%;
 	height: 255px;
 	color: #fff;	
 	position: relative;
+}
+
+#meals__item__1 {
+	background-image: url('images/meals/italian.png');
+}
+
+#meals__item__2 {
+	background-image: url('images/meals/indian.png');
+}
+
+#meals__item__3 {
+	background-image: url('images/meals/french.png');
+}
+
+#meals__item__4 {
+	background-image: url('images/meals/steakhouse.png');
+}
+
+#meals__item__5 {
+	background-image: url('images/meals/seafood.png');
+}
+
+#meals__item__6 {
+	background-image: url('images/meals/sushi.png');
+}
+
+#meals__item__7 {
+	background-image: url('images/meals/mexican.png');
+}
+
+#meals__item__8 {
+	background-image: url('images/meals/chinese.png');
+}
+
+#meals__item__9 {
+	background-image: url('images/meals/pizza.png');
+}
+
+#meals__item__10 {
+	background-image: url('images/meals/american.png');
 }
 
 .meals__countent {
