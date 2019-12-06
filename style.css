@@ -1,4 +1,11 @@
 /* Global */ 
+:root {
+	--touch: 100px;
+	--touch-item: 10px;
+	--touch-color: rgb(117, 0, 255);
+	--translate: calc(var(--touch) / 2 - var(--touch-item) / 2);
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -60,8 +67,12 @@ a:hover {
 
 }
 
-.button-menu {
+.button-menu_hidden {
 	display: none;
+}
+
+.button-menu {
+	display: flex;
 	list-style: none;
 	margin: 0;
 	padding: 10px 0 0;
@@ -82,9 +93,39 @@ a:hover {
 	color: #333;
 }
 
-#checkbox-button-menu:checked + .button-menu {
-	display: block;
+.touch-menu__item {
+	width: var(--touch);
+	height: var(--touch);
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	cursor: pointer;
 }
+
+.touch-menu__item > div {
+	width: 100%;
+	height: var(--touch-item);
+	background-color: var(--touch-color);
+	border-radius: 5px;
+	transition: 0.4s;
+}
+
+.active-menu__item > div:nth-child(1)  {
+	transform: translateY(var(--translate)) rotate(-45deg);
+}
+
+.active-menu__item > div:nth-child(2)  {
+	opacity: 0;
+}
+
+.active-menu__item > div:nth-child(3)  {
+	transform: translateY(calc(var(--translate) * -1)) rotate(45deg);
+}
+
+/* #checkbox-button-menu:checked + .button-menu {
+	display: block;
+} */
 
 /* section main*/
 
