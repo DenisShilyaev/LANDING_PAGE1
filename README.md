@@ -2,6 +2,9 @@
 Создан на основе видео урока с целью практики работы c HTML и CSS. Затем завершен и доработан самостоятельно.
 Добавлена анимация.
 
+## Инструкция
+Чтобы запустить проект откройте файл: ... / LANDING_PAGE1 / index.htmll в любом браузере.
+
 ## PSD макет:
 
 ![PSD](https://github.com/DenisShilyaev/LANDING_PAGE1/raw/master/source/Fudi.jpg)
@@ -12,6 +15,9 @@
 # LANDING PAGE
 It was created on the basis of a video tutorial with the aim of working with HTML and CSS. Then completed and finalized independently.
 Added animation.
+
+## Instruction manual
+To start the project, open the file: ... / LANDING_PAGE / index.htmll in any browser.
 
 ## PSD layout:
 
